@@ -58,4 +58,8 @@ public class Enemy {
     public boolean isDefeated() {
         return health == 0;
     }
+
+    public String toString(){
+        return this.name;
+    }
 }

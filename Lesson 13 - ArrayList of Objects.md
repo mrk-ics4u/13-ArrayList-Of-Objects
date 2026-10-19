@@ -1,6 +1,6 @@
 # Lesson 13 - ArrayList of Objects
 
-In Lesson 8 an `ArrayList` held `String`s and `Integer`s. Those are objects too, so an `ArrayList` can hold objects of any class, including ones you write. A game keeps a list of `Enemy` objects, a music app keeps a list of `Song` objects. Almost every program in your project will need one.
+In Lesson 8 an `ArrayList` held `String`s and `Integer`s. Those are objects too, so an `ArrayList` can hold objects of any class, including ones you write. A game keeps a list of `Enemy` objects, a music app keeps a list of `Song` objects. Your project should include hundreds of pieces of data, which means you may want hundreds of objects!
 
 This lesson uses the `Enemy` class from Lesson 11.
 
@@ -211,7 +211,7 @@ System.out.println(first.getName() + " " + list.get(0).getName());
 
 ### ICS 4U
 
-"I can create an `ArrayList` of objects, call methods on its elements, and traverse it to sum, find, count, and remove" is a requirement of the course (A1.5) and will be expected in your programming project.
+"I can use one-dimensional arrays of compound data types (i.e. objects)" is a requirement of the course and will be on your programming test and expected in your programming project.
 
 ### AP Expectations
 

@@ -11,8 +11,10 @@ import java.util.ArrayList;
 
 public class ArrayListOfObjectsDemo {
 
+
     public static void main(String[] args) {
 
+        
         // create the list, then add new objects to it
         ArrayList<Enemy> enemies = new ArrayList<Enemy>();
         enemies.add(new Enemy("Goblin", 30, 4));
@@ -20,6 +22,8 @@ public class ArrayListOfObjectsDemo {
         enemies.add(new Enemy("Slime", 10, 1));
         enemies.add(new Enemy("Troll", 80, 12));
 
+        Enemy goblin = new Enemy("Goblin", 100, 4);
+        goblin.takeDamage(10);
         // an object already stored in a variable can be added too
         Enemy boss = new Enemy("Dragon", 200, 25);
         enemies.add(boss);
@@ -29,6 +33,8 @@ public class ArrayListOfObjectsDemo {
         // printing the list shows Enemy@1b6d3586 style codes: Enemy has no toString
         System.out.println(enemies);
 
+
+        System.out.println(enemies.get(0));
         // call a method on one element: get(i) first, then the dot
         System.out.println(enemies.get(0).getName() + " has " + enemies.get(0).getHealth() + " health");
 
